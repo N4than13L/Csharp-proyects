@@ -1,0 +1,13 @@
+C:\Users\Nathaniel\source\repos\Conversor de unidades\Conversor de unidades\bin\Debug\netcoreapp3.1\Conversor de unidades.exe
+C:\Users\Nathaniel\source\repos\Conversor de unidades\Conversor de unidades\bin\Debug\netcoreapp3.1\Conversor de unidades.deps.json
+C:\Users\Nathaniel\source\repos\Conversor de unidades\Conversor de unidades\bin\Debug\netcoreapp3.1\Conversor de unidades.runtimeconfig.json
+C:\Users\Nathaniel\source\repos\Conversor de unidades\Conversor de unidades\bin\Debug\netcoreapp3.1\Conversor de unidades.runtimeconfig.dev.json
+C:\Users\Nathaniel\source\repos\Conversor de unidades\Conversor de unidades\bin\Debug\netcoreapp3.1\Conversor de unidades.dll
+C:\Users\Nathaniel\source\repos\Conversor de unidades\Conversor de unidades\bin\Debug\netcoreapp3.1\Conversor de unidades.pdb
+C:\Users\Nathaniel\source\repos\Conversor de unidades\Conversor de unidades\obj\Debug\netcoreapp3.1\Conversor de unidades.csprojAssemblyReference.cache
+C:\Users\Nathaniel\source\repos\Conversor de unidades\Conversor de unidades\obj\Debug\netcoreapp3.1\Conversor de unidades.AssemblyInfoInputs.cache
+C:\Users\Nathaniel\source\repos\Conversor de unidades\Conversor de unidades\obj\Debug\netcoreapp3.1\Conversor de unidades.AssemblyInfo.cs
+C:\Users\Nathaniel\source\repos\Conversor de unidades\Conversor de unidades\obj\Debug\netcoreapp3.1\Conversor de unidades.csproj.CoreCompileInputs.cache
+C:\Users\Nathaniel\source\repos\Conversor de unidades\Conversor de unidades\obj\Debug\netcoreapp3.1\Conversor de unidades.dll
+C:\Users\Nathaniel\source\repos\Conversor de unidades\Conversor de unidades\obj\Debug\netcoreapp3.1\Conversor de unidades.pdb
+C:\Users\Nathaniel\source\repos\Conversor de unidades\Conversor de unidades\obj\Debug\netcoreapp3.1\Conversor de unidades.genruntimeconfig.cache

@@ -1,0 +1,13 @@
+C:\Users\Nathaniel\source\repos\Cont_Curso_CSharp\Cont_Curso_CSharp\bin\Debug\netcoreapp3.1\Cont_Curso_CSharp.exe
+C:\Users\Nathaniel\source\repos\Cont_Curso_CSharp\Cont_Curso_CSharp\bin\Debug\netcoreapp3.1\Cont_Curso_CSharp.deps.json
+C:\Users\Nathaniel\source\repos\Cont_Curso_CSharp\Cont_Curso_CSharp\bin\Debug\netcoreapp3.1\Cont_Curso_CSharp.runtimeconfig.json
+C:\Users\Nathaniel\source\repos\Cont_Curso_CSharp\Cont_Curso_CSharp\bin\Debug\netcoreapp3.1\Cont_Curso_CSharp.runtimeconfig.dev.json
+C:\Users\Nathaniel\source\repos\Cont_Curso_CSharp\Cont_Curso_CSharp\bin\Debug\netcoreapp3.1\Cont_Curso_CSharp.dll
+C:\Users\Nathaniel\source\repos\Cont_Curso_CSharp\Cont_Curso_CSharp\bin\Debug\netcoreapp3.1\Cont_Curso_CSharp.pdb
+C:\Users\Nathaniel\source\repos\Cont_Curso_CSharp\Cont_Curso_CSharp\obj\Debug\netcoreapp3.1\Cont_Curso_CSharp.csprojAssemblyReference.cache
+C:\Users\Nathaniel\source\repos\Cont_Curso_CSharp\Cont_Curso_CSharp\obj\Debug\netcoreapp3.1\Cont_Curso_CSharp.AssemblyInfoInputs.cache
+C:\Users\Nathaniel\source\repos\Cont_Curso_CSharp\Cont_Curso_CSharp\obj\Debug\netcoreapp3.1\Cont_Curso_CSharp.AssemblyInfo.cs
+C:\Users\Nathaniel\source\repos\Cont_Curso_CSharp\Cont_Curso_CSharp\obj\Debug\netcoreapp3.1\Cont_Curso_CSharp.csproj.CoreCompileInputs.cache
+C:\Users\Nathaniel\source\repos\Cont_Curso_CSharp\Cont_Curso_CSharp\obj\Debug\netcoreapp3.1\Cont_Curso_CSharp.dll
+C:\Users\Nathaniel\source\repos\Cont_Curso_CSharp\Cont_Curso_CSharp\obj\Debug\netcoreapp3.1\Cont_Curso_CSharp.pdb
+C:\Users\Nathaniel\source\repos\Cont_Curso_CSharp\Cont_Curso_CSharp\obj\Debug\netcoreapp3.1\Cont_Curso_CSharp.genruntimeconfig.cache
