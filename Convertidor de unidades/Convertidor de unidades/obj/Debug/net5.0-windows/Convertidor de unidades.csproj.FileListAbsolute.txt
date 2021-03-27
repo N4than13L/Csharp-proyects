@@ -1,0 +1,18 @@
+C:\Users\Nathaniel\Desktop\Csharp-proyects\Convertidor de unidades\Convertidor de unidades\bin\Debug\net5.0-windows\Convertidor de unidades.exe
+C:\Users\Nathaniel\Desktop\Csharp-proyects\Convertidor de unidades\Convertidor de unidades\bin\Debug\net5.0-windows\Convertidor de unidades.deps.json
+C:\Users\Nathaniel\Desktop\Csharp-proyects\Convertidor de unidades\Convertidor de unidades\bin\Debug\net5.0-windows\Convertidor de unidades.runtimeconfig.json
+C:\Users\Nathaniel\Desktop\Csharp-proyects\Convertidor de unidades\Convertidor de unidades\bin\Debug\net5.0-windows\Convertidor de unidades.runtimeconfig.dev.json
+C:\Users\Nathaniel\Desktop\Csharp-proyects\Convertidor de unidades\Convertidor de unidades\bin\Debug\net5.0-windows\Convertidor de unidades.dll
+C:\Users\Nathaniel\Desktop\Csharp-proyects\Convertidor de unidades\Convertidor de unidades\bin\Debug\net5.0-windows\ref\Convertidor de unidades.dll
+C:\Users\Nathaniel\Desktop\Csharp-proyects\Convertidor de unidades\Convertidor de unidades\bin\Debug\net5.0-windows\Convertidor de unidades.pdb
+C:\Users\Nathaniel\Desktop\Csharp-proyects\Convertidor de unidades\Convertidor de unidades\obj\Debug\net5.0-windows\Convertidor de unidades.csprojAssemblyReference.cache
+C:\Users\Nathaniel\Desktop\Csharp-proyects\Convertidor de unidades\Convertidor de unidades\obj\Debug\net5.0-windows\Convertidor_de_unidades.Form1.resources
+C:\Users\Nathaniel\Desktop\Csharp-proyects\Convertidor de unidades\Convertidor de unidades\obj\Debug\net5.0-windows\Convertidor de unidades.csproj.GenerateResource.cache
+C:\Users\Nathaniel\Desktop\Csharp-proyects\Convertidor de unidades\Convertidor de unidades\obj\Debug\net5.0-windows\Convertidor de unidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nathaniel\Desktop\Csharp-proyects\Convertidor de unidades\Convertidor de unidades\obj\Debug\net5.0-windows\Convertidor de unidades.AssemblyInfoInputs.cache
+C:\Users\Nathaniel\Desktop\Csharp-proyects\Convertidor de unidades\Convertidor de unidades\obj\Debug\net5.0-windows\Convertidor de unidades.AssemblyInfo.cs
+C:\Users\Nathaniel\Desktop\Csharp-proyects\Convertidor de unidades\Convertidor de unidades\obj\Debug\net5.0-windows\Convertidor de unidades.csproj.CoreCompileInputs.cache
+C:\Users\Nathaniel\Desktop\Csharp-proyects\Convertidor de unidades\Convertidor de unidades\obj\Debug\net5.0-windows\Convertidor de unidades.dll
+C:\Users\Nathaniel\Desktop\Csharp-proyects\Convertidor de unidades\Convertidor de unidades\obj\Debug\net5.0-windows\ref\Convertidor de unidades.dll
+C:\Users\Nathaniel\Desktop\Csharp-proyects\Convertidor de unidades\Convertidor de unidades\obj\Debug\net5.0-windows\Convertidor de unidades.pdb
+C:\Users\Nathaniel\Desktop\Csharp-proyects\Convertidor de unidades\Convertidor de unidades\obj\Debug\net5.0-windows\Convertidor de unidades.genruntimeconfig.cache
