@@ -32,12 +32,14 @@ namespace Convertidor_de_unidades
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.boton_Calcular = new System.Windows.Forms.Button();
             this.txt_valores = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.Resultado = new System.Windows.Forms.Label();
+            this.celcius_kelvin = new System.Windows.Forms.RadioButton();
+            this.farenheit_celcius = new System.Windows.Forms.RadioButton();
+            this.Celcius_Fareheit = new System.Windows.Forms.RadioButton();
             this.groupBox3.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -69,12 +71,14 @@ namespace Convertidor_de_unidades
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox3.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.groupBox3.Controls.Add(this.label3);
+            this.groupBox3.Controls.Add(this.label2);
             this.groupBox3.Controls.Add(this.boton_Calcular);
             this.groupBox3.Controls.Add(this.txt_valores);
-            this.groupBox3.Controls.Add(this.label1);
-            this.groupBox3.Controls.Add(this.radioButton3);
-            this.groupBox3.Controls.Add(this.radioButton2);
-            this.groupBox3.Controls.Add(this.radioButton1);
+            this.groupBox3.Controls.Add(this.Resultado);
+            this.groupBox3.Controls.Add(this.celcius_kelvin);
+            this.groupBox3.Controls.Add(this.farenheit_celcius);
+            this.groupBox3.Controls.Add(this.Celcius_Fareheit);
             this.groupBox3.Location = new System.Drawing.Point(111, 55);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(677, 383);
@@ -82,11 +86,32 @@ namespace Convertidor_de_unidades
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "groupBox3";
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label3.Location = new System.Drawing.Point(26, 64);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(101, 21);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "Resultado es:";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label2.Location = new System.Drawing.Point(-394, 15);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(97, 21);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "resultado es:";
+            // 
             // boton_Calcular
             // 
-            this.boton_Calcular.Location = new System.Drawing.Point(23, 339);
+            this.boton_Calcular.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.boton_Calcular.Location = new System.Drawing.Point(22, 336);
             this.boton_Calcular.Name = "boton_Calcular";
-            this.boton_Calcular.Size = new System.Drawing.Size(75, 23);
+            this.boton_Calcular.Size = new System.Drawing.Size(104, 38);
             this.boton_Calcular.TabIndex = 2;
             this.boton_Calcular.Text = "Calcular";
             this.boton_Calcular.UseVisualStyleBackColor = true;
@@ -94,53 +119,58 @@ namespace Convertidor_de_unidades
             // 
             // txt_valores
             // 
+            this.txt_valores.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txt_valores.Location = new System.Drawing.Point(23, 31);
             this.txt_valores.Name = "txt_valores";
-            this.txt_valores.Size = new System.Drawing.Size(157, 23);
+            this.txt_valores.Size = new System.Drawing.Size(157, 29);
             this.txt_valores.TabIndex = 0;
             this.txt_valores.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_valores_KeyPress);
             // 
-            // label1
+            // Resultado
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(15, 75);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(13, 15);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "0";
+            this.Resultado.AutoSize = true;
+            this.Resultado.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Resultado.Location = new System.Drawing.Point(139, 64);
+            this.Resultado.Name = "Resultado";
+            this.Resultado.Size = new System.Drawing.Size(19, 21);
+            this.Resultado.TabIndex = 1;
+            this.Resultado.Text = "0";
             // 
-            // radioButton3
+            // celcius_kelvin
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(487, 85);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(87, 19);
-            this.radioButton3.TabIndex = 0;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "°C a °Kelvin";
-            this.radioButton3.UseVisualStyleBackColor = true;
+            this.celcius_kelvin.AutoSize = true;
+            this.celcius_kelvin.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.celcius_kelvin.Location = new System.Drawing.Point(487, 85);
+            this.celcius_kelvin.Name = "celcius_kelvin";
+            this.celcius_kelvin.Size = new System.Drawing.Size(75, 25);
+            this.celcius_kelvin.TabIndex = 0;
+            this.celcius_kelvin.TabStop = true;
+            this.celcius_kelvin.Text = "°C a °K";
+            this.celcius_kelvin.UseVisualStyleBackColor = true;
             // 
-            // radioButton2
+            // farenheit_celcius
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(487, 60);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(61, 19);
-            this.radioButton2.TabIndex = 0;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "°F a °C";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.farenheit_celcius.AutoSize = true;
+            this.farenheit_celcius.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.farenheit_celcius.Location = new System.Drawing.Point(487, 60);
+            this.farenheit_celcius.Name = "farenheit_celcius";
+            this.farenheit_celcius.Size = new System.Drawing.Size(74, 25);
+            this.farenheit_celcius.TabIndex = 0;
+            this.farenheit_celcius.TabStop = true;
+            this.farenheit_celcius.Text = "°F a °C";
+            this.farenheit_celcius.UseVisualStyleBackColor = true;
             // 
-            // radioButton1
+            // Celcius_Fareheit
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(487, 35);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(61, 19);
-            this.radioButton1.TabIndex = 0;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "°C a °F";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.Celcius_Fareheit.AutoSize = true;
+            this.Celcius_Fareheit.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Celcius_Fareheit.Location = new System.Drawing.Point(487, 35);
+            this.Celcius_Fareheit.Name = "Celcius_Fareheit";
+            this.Celcius_Fareheit.Size = new System.Drawing.Size(74, 25);
+            this.Celcius_Fareheit.TabIndex = 0;
+            this.Celcius_Fareheit.TabStop = true;
+            this.Celcius_Fareheit.Text = "°C a °F";
+            this.Celcius_Fareheit.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -151,7 +181,7 @@ namespace Convertidor_de_unidades
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Conversor de Uniades ";
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             this.ResumeLayout(false);
@@ -164,11 +194,13 @@ namespace Convertidor_de_unidades
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.TextBox txt_valores;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.Label Resultado;
+        private System.Windows.Forms.RadioButton celcius_kelvin;
+        private System.Windows.Forms.RadioButton farenheit_celcius;
+        private System.Windows.Forms.RadioButton Celcius_Fareheit;
         private System.Windows.Forms.Button boton_Calcular;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
     }
 }
 

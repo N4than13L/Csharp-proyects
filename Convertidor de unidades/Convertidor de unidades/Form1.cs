@@ -17,11 +17,25 @@ namespace Convertidor_de_unidades
             InitializeComponent();
         }
 
+        /*
+        De Celsius a Kelvin: KELVIN = CELSIUS + 273.15
+        De Celsius a Farenheit: FARENHEIT = (CELSIUS) *9/5 + 32
+        De Farenheit a Celsius: CELSIUS = (FARENHEIT – 32) * (5/9)
+        De Farenheit a Kelvin: KELVIN = (FARENHEIT – 32) * (5/9) + 273.15
+        De Kelvin a Celsius: CELSIUS = KELVIN – 273.15
+        De Kelvin a Farenheit: FARENHEIT = ((KELVIN – 273.15) * 9/5 ) + 32
+
+
+Fuente: https://www.ejemplos.co/ejemplos-de-conversion-de-temperatura/#ixzz6qS0DB7YX
+         */
+
         private void boton_Calcular_Click(object sender, EventArgs e)
         {
-            if (radioButton1.Checked == true && txt_valores.Text != null)
+            double Temp = double.Parse(txt_valores.Text);
+
+            if (Celcius_Fareheit.Checked == true && Temp != null)
             {
-                MessageBox.Show(txt_valores.Text);
+                Resultado.Text = Convert.ToString(Temp + 273.15);
             }
             else
             {
@@ -47,5 +61,7 @@ namespace Convertidor_de_unidades
                 }
             }
         }
+
+       
     }
 }

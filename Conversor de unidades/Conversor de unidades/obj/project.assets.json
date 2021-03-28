@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nathaniel\\source\\repos\\Conversor de unidades\\Conversor de unidades\\Conversor de unidades.csproj",
+      "projectUniqueName": "C:\\Users\\Nathaniel\\Desktop\\Csharp-proyects\\Conversor de unidades\\Conversor de unidades\\Conversor de unidades.csproj",
       "projectName": "Conversor de unidades",
-      "projectPath": "C:\\Users\\Nathaniel\\source\\repos\\Conversor de unidades\\Conversor de unidades\\Conversor de unidades.csproj",
+      "projectPath": "C:\\Users\\Nathaniel\\Desktop\\Csharp-proyects\\Conversor de unidades\\Conversor de unidades\\Conversor de unidades.csproj",
       "packagesPath": "C:\\Users\\Nathaniel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nathaniel\\source\\repos\\Conversor de unidades\\Conversor de unidades\\obj\\",
+      "outputPath": "C:\\Users\\Nathaniel\\Desktop\\Csharp-proyects\\Conversor de unidades\\Conversor de unidades\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Nathaniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
