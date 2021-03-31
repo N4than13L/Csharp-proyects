@@ -37,9 +37,9 @@ namespace Convertidor_de_unidades
             this.boton_Calcular = new System.Windows.Forms.Button();
             this.txt_valores = new System.Windows.Forms.TextBox();
             this.Resultado = new System.Windows.Forms.Label();
-            this.celcius_kelvin = new System.Windows.Forms.RadioButton();
+            this.Celcius_Kelvin = new System.Windows.Forms.RadioButton();
             this.farenheit_celcius = new System.Windows.Forms.RadioButton();
-            this.Celcius_Fareheit = new System.Windows.Forms.RadioButton();
+            this.farenheit_a_kelvin = new System.Windows.Forms.RadioButton();
             this.groupBox3.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -71,14 +71,14 @@ namespace Convertidor_de_unidades
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox3.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.groupBox3.Controls.Add(this.farenheit_a_kelvin);
             this.groupBox3.Controls.Add(this.label3);
             this.groupBox3.Controls.Add(this.label2);
             this.groupBox3.Controls.Add(this.boton_Calcular);
             this.groupBox3.Controls.Add(this.txt_valores);
             this.groupBox3.Controls.Add(this.Resultado);
-            this.groupBox3.Controls.Add(this.celcius_kelvin);
             this.groupBox3.Controls.Add(this.farenheit_celcius);
-            this.groupBox3.Controls.Add(this.Celcius_Fareheit);
+            this.groupBox3.Controls.Add(this.Celcius_Kelvin);
             this.groupBox3.Location = new System.Drawing.Point(111, 55);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(677, 383);
@@ -136,17 +136,17 @@ namespace Convertidor_de_unidades
             this.Resultado.TabIndex = 1;
             this.Resultado.Text = "0";
             // 
-            // celcius_kelvin
+            // Celcius_Kelvin
             // 
-            this.celcius_kelvin.AutoSize = true;
-            this.celcius_kelvin.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.celcius_kelvin.Location = new System.Drawing.Point(487, 85);
-            this.celcius_kelvin.Name = "celcius_kelvin";
-            this.celcius_kelvin.Size = new System.Drawing.Size(75, 25);
-            this.celcius_kelvin.TabIndex = 0;
-            this.celcius_kelvin.TabStop = true;
-            this.celcius_kelvin.Text = "°C a °K";
-            this.celcius_kelvin.UseVisualStyleBackColor = true;
+            this.Celcius_Kelvin.AutoSize = true;
+            this.Celcius_Kelvin.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Celcius_Kelvin.Location = new System.Drawing.Point(487, 35);
+            this.Celcius_Kelvin.Name = "Celcius_Kelvin";
+            this.Celcius_Kelvin.Size = new System.Drawing.Size(75, 25);
+            this.Celcius_Kelvin.TabIndex = 0;
+            this.Celcius_Kelvin.TabStop = true;
+            this.Celcius_Kelvin.Text = "°C a °K";
+            this.Celcius_Kelvin.UseVisualStyleBackColor = true;
             // 
             // farenheit_celcius
             // 
@@ -160,17 +160,17 @@ namespace Convertidor_de_unidades
             this.farenheit_celcius.Text = "°F a °C";
             this.farenheit_celcius.UseVisualStyleBackColor = true;
             // 
-            // Celcius_Fareheit
+            // farenheit_a_kelvin
             // 
-            this.Celcius_Fareheit.AutoSize = true;
-            this.Celcius_Fareheit.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Celcius_Fareheit.Location = new System.Drawing.Point(487, 35);
-            this.Celcius_Fareheit.Name = "Celcius_Fareheit";
-            this.Celcius_Fareheit.Size = new System.Drawing.Size(74, 25);
-            this.Celcius_Fareheit.TabIndex = 0;
-            this.Celcius_Fareheit.TabStop = true;
-            this.Celcius_Fareheit.Text = "°C a °F";
-            this.Celcius_Fareheit.UseVisualStyleBackColor = true;
+            this.farenheit_a_kelvin.AutoSize = true;
+            this.farenheit_a_kelvin.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.farenheit_a_kelvin.Location = new System.Drawing.Point(488, 91);
+            this.farenheit_a_kelvin.Name = "farenheit_a_kelvin";
+            this.farenheit_a_kelvin.Size = new System.Drawing.Size(72, 25);
+            this.farenheit_a_kelvin.TabIndex = 5;
+            this.farenheit_a_kelvin.TabStop = true;
+            this.farenheit_a_kelvin.Text = "°F a °k";
+            this.farenheit_a_kelvin.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -195,12 +195,12 @@ namespace Convertidor_de_unidades
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.TextBox txt_valores;
         private System.Windows.Forms.Label Resultado;
-        private System.Windows.Forms.RadioButton celcius_kelvin;
-        private System.Windows.Forms.RadioButton farenheit_celcius;
-        private System.Windows.Forms.RadioButton Celcius_Fareheit;
+        private System.Windows.Forms.RadioButton Celcius_Kelvin;
         private System.Windows.Forms.Button boton_Calcular;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.RadioButton farenheit_a_kelvin;
+        private System.Windows.Forms.RadioButton farenheit_celcius;
     }
 }
 
