@@ -25,7 +25,7 @@ namespace Convertidor_de_unidades
 
 Fuente: https://www.ejemplos.co/ejemplos-de-conversion-de-temperatura/#ixzz6qS0DB7YX
          */
-
+        
         private void boton_Calcular_Click(object sender, EventArgs e)
         {
             double Temp = double.Parse(txt_valores.Text);
@@ -46,16 +46,13 @@ Fuente: https://www.ejemplos.co/ejemplos-de-conversion-de-temperatura/#ixzz6qS0D
                 }
                 else if (farenheit_a_kelvin.Checked == true)
                 {
-                   //De Farenheit a Kelvin: KELVIN = (FARENHEIT – 32) *(5 / 9) + 273.15
-
-
+                    //De Farenheit a Kelvin: KELVIN = (FARENHEIT – 32) *(5 / 9) + 273.15
+                    // double f_a_k = (double)Convert.ToDecimal();
+                    Resultado.Text = Convert.ToString(Temp - 273.15);
                 }
             }
-            
-           
 
             //De Celsius a Farenheit: FARENHEIT = (CELSIUS) * 9 / 5 + 32
-
 
         }
 
@@ -78,6 +75,21 @@ Fuente: https://www.ejemplos.co/ejemplos-de-conversion-de-temperatura/#ixzz6qS0D
             }
         }
 
-       
+        private void Temperatura_Click(object sender, EventArgs e)
+        {
+            gbx_Velocidad.Visible = false;
+            gbx_temperatura.Visible = true;
+        }
+
+        private void Velocidad_Click(object sender, EventArgs e)
+        {
+            gbx_temperatura.Visible = false;
+            gbx_Velocidad.Visible = true;
+        }
+
+        private void button_calcular_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
