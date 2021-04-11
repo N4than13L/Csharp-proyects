@@ -34,11 +34,12 @@ namespace Convertidor_de_unidades
             this.button_velocidad = new System.Windows.Forms.Button();
             this.button_programación = new System.Windows.Forms.Button();
             this.button_distancia = new System.Windows.Forms.Button();
+            this.button_Estandar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button_densidad
             // 
-            this.button_densidad.Location = new System.Drawing.Point(40, 52);
+            this.button_densidad.Location = new System.Drawing.Point(42, 136);
             this.button_densidad.Name = "button_densidad";
             this.button_densidad.Size = new System.Drawing.Size(246, 23);
             this.button_densidad.TabIndex = 0;
@@ -48,7 +49,7 @@ namespace Convertidor_de_unidades
             // 
             // button_temperatura
             // 
-            this.button_temperatura.Location = new System.Drawing.Point(40, 90);
+            this.button_temperatura.Location = new System.Drawing.Point(42, 94);
             this.button_temperatura.Name = "button_temperatura";
             this.button_temperatura.Size = new System.Drawing.Size(246, 23);
             this.button_temperatura.TabIndex = 1;
@@ -58,7 +59,7 @@ namespace Convertidor_de_unidades
             // 
             // button_velocidad
             // 
-            this.button_velocidad.Location = new System.Drawing.Point(40, 132);
+            this.button_velocidad.Location = new System.Drawing.Point(42, 177);
             this.button_velocidad.Name = "button_velocidad";
             this.button_velocidad.Size = new System.Drawing.Size(246, 23);
             this.button_velocidad.TabIndex = 2;
@@ -68,7 +69,7 @@ namespace Convertidor_de_unidades
             // 
             // button_programación
             // 
-            this.button_programación.Location = new System.Drawing.Point(40, 178);
+            this.button_programación.Location = new System.Drawing.Point(42, 223);
             this.button_programación.Name = "button_programación";
             this.button_programación.Size = new System.Drawing.Size(246, 23);
             this.button_programación.TabIndex = 3;
@@ -78,7 +79,7 @@ namespace Convertidor_de_unidades
             // 
             // button_distancia
             // 
-            this.button_distancia.Location = new System.Drawing.Point(40, 229);
+            this.button_distancia.Location = new System.Drawing.Point(42, 274);
             this.button_distancia.Name = "button_distancia";
             this.button_distancia.Size = new System.Drawing.Size(246, 23);
             this.button_distancia.TabIndex = 4;
@@ -86,11 +87,22 @@ namespace Convertidor_de_unidades
             this.button_distancia.UseVisualStyleBackColor = true;
             this.button_distancia.Click += new System.EventHandler(this.button_distancia_Click);
             // 
+            // button_Estandar
+            // 
+            this.button_Estandar.Location = new System.Drawing.Point(42, 54);
+            this.button_Estandar.Name = "button_Estandar";
+            this.button_Estandar.Size = new System.Drawing.Size(246, 23);
+            this.button_Estandar.TabIndex = 5;
+            this.button_Estandar.Text = "Estandar";
+            this.button_Estandar.UseVisualStyleBackColor = true;
+            this.button_Estandar.Click += new System.EventHandler(this.button_Estandar_Click);
+            // 
             // Form_Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(339, 503);
+            this.Controls.Add(this.button_Estandar);
             this.Controls.Add(this.button_distancia);
             this.Controls.Add(this.button_programación);
             this.Controls.Add(this.button_velocidad);
@@ -110,6 +122,7 @@ namespace Convertidor_de_unidades
         private System.Windows.Forms.Button button_velocidad;
         private System.Windows.Forms.Button button_programación;
         private System.Windows.Forms.Button button_distancia;
+        private System.Windows.Forms.Button button_Estandar;
     }
 }
 

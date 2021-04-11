@@ -46,6 +46,11 @@ namespace Convertidor_de_unidades
             Distancia dis = new Distancia();
             dis.Show();
         }
+
+        private void button_Estandar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 
 }
