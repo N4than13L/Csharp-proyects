@@ -21,3 +21,4 @@ C:\Users\Nathaniel\Desktop\Csharp-proyects\Convertidor de unidades\Convertidor d
 C:\Users\Nathaniel\Desktop\Csharp-proyects\Convertidor de unidades\Convertidor de unidades\obj\Debug\net5.0-windows\Convertidor_de_unidades.Distancia.resources
 C:\Users\Nathaniel\Desktop\Csharp-proyects\Convertidor de unidades\Convertidor de unidades\obj\Debug\net5.0-windows\Convertidor_de_unidades.Programacion.resources
 C:\Users\Nathaniel\Desktop\Csharp-proyects\Convertidor de unidades\Convertidor de unidades\obj\Debug\net5.0-windows\Convertidor_de_unidades.Velocidad.resources
+C:\Users\Nathaniel\Desktop\Csharp-proyects\Convertidor de unidades\Convertidor de unidades\obj\Debug\net5.0-windows\Convertidor_de_unidades.Calculadora_Estandar.resources

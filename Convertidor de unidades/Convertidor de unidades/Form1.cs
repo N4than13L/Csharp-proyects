@@ -49,6 +49,8 @@ namespace Convertidor_de_unidades
 
         private void button_Estandar_Click(object sender, EventArgs e)
         {
+            Calculadora_Estandar calcu = new Calculadora_Estandar();
+            calcu.Show();
 
         }
     }
