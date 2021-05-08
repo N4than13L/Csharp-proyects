@@ -133,6 +133,8 @@ namespace Snake_Game
                 cabeza.meter();
                 puntaje++;
                 puntos.Text = puntaje.ToString();
+
+                label_puntaje_maximo.Text = puntos.Text;
             }
         }
     }
