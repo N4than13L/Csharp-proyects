@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Timers;
 
 namespace Snake_Game
 {
@@ -113,6 +114,11 @@ namespace Snake_Game
                     ejey = false;
                 }
             }
+        }
+
+        private void button_pausa_Click(object sender, EventArgs e)
+        {
+            
         }
 
         public void movimiento()

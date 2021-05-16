@@ -36,6 +36,7 @@ namespace Snake_Game
             this.bucle = new System.Windows.Forms.Timer(this.components);
             this.label2 = new System.Windows.Forms.Label();
             this.label_puntaje_maximo = new System.Windows.Forms.Label();
+            this.button_pausa = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.canvas)).BeginInit();
             this.SuspendLayout();
             // 
@@ -51,7 +52,7 @@ namespace Snake_Game
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 415);
+            this.label1.Location = new System.Drawing.Point(12, 405);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(97, 25);
             this.label1.TabIndex = 1;
@@ -61,7 +62,7 @@ namespace Snake_Game
             // 
             this.puntos.AutoSize = true;
             this.puntos.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.puntos.Location = new System.Drawing.Point(764, 415);
+            this.puntos.Location = new System.Drawing.Point(764, 405);
             this.puntos.Name = "puntos";
             this.puntos.Size = new System.Drawing.Size(24, 25);
             this.puntos.TabIndex = 2;
@@ -76,7 +77,7 @@ namespace Snake_Game
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(12, 450);
+            this.label2.Location = new System.Drawing.Point(12, 440);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(172, 25);
             this.label2.TabIndex = 3;
@@ -86,17 +87,29 @@ namespace Snake_Game
             // 
             this.label_puntaje_maximo.AutoSize = true;
             this.label_puntaje_maximo.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_puntaje_maximo.Location = new System.Drawing.Point(764, 450);
+            this.label_puntaje_maximo.Location = new System.Drawing.Point(764, 440);
             this.label_puntaje_maximo.Name = "label_puntaje_maximo";
             this.label_puntaje_maximo.Size = new System.Drawing.Size(24, 25);
             this.label_puntaje_maximo.TabIndex = 4;
             this.label_puntaje_maximo.Text = "0";
             // 
+            // button_pausa
+            // 
+            this.button_pausa.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_pausa.Location = new System.Drawing.Point(17, 470);
+            this.button_pausa.Name = "button_pausa";
+            this.button_pausa.Size = new System.Drawing.Size(195, 40);
+            this.button_pausa.TabIndex = 5;
+            this.button_pausa.Text = "Pausar";
+            this.button_pausa.UseVisualStyleBackColor = true;
+            this.button_pausa.Click += new System.EventHandler(this.button_pausa_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 489);
+            this.ClientSize = new System.Drawing.Size(800, 520);
+            this.Controls.Add(this.button_pausa);
             this.Controls.Add(this.label_puntaje_maximo);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.puntos);
@@ -119,6 +132,7 @@ namespace Snake_Game
         private System.Windows.Forms.Timer bucle;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label_puntaje_maximo;
+        private System.Windows.Forms.Button button_pausa;
     }
 }
 
