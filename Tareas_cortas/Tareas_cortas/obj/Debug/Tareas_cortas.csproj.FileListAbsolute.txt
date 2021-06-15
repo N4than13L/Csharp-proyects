@@ -1,0 +1,11 @@
+C:\Users\Nathaniel\Desktop\Csharp-proyects\Tareas_cortas\Tareas_cortas\bin\Debug\Tareas_cortas.exe.config
+C:\Users\Nathaniel\Desktop\Csharp-proyects\Tareas_cortas\Tareas_cortas\bin\Debug\Tareas_cortas.exe
+C:\Users\Nathaniel\Desktop\Csharp-proyects\Tareas_cortas\Tareas_cortas\bin\Debug\Tareas_cortas.pdb
+C:\Users\Nathaniel\Desktop\Csharp-proyects\Tareas_cortas\Tareas_cortas\obj\Debug\Tareas_cortas.csproj.AssemblyReference.cache
+C:\Users\Nathaniel\Desktop\Csharp-proyects\Tareas_cortas\Tareas_cortas\obj\Debug\Tareas_cortas.Form1.resources
+C:\Users\Nathaniel\Desktop\Csharp-proyects\Tareas_cortas\Tareas_cortas\obj\Debug\Tareas_cortas.Properties.Resources.resources
+C:\Users\Nathaniel\Desktop\Csharp-proyects\Tareas_cortas\Tareas_cortas\obj\Debug\Tareas_cortas.csproj.GenerateResource.cache
+C:\Users\Nathaniel\Desktop\Csharp-proyects\Tareas_cortas\Tareas_cortas\obj\Debug\Tareas_cortas.csproj.CoreCompileInputs.cache
+C:\Users\Nathaniel\Desktop\Csharp-proyects\Tareas_cortas\Tareas_cortas\obj\Debug\Tareas_cortas.exe
+C:\Users\Nathaniel\Desktop\Csharp-proyects\Tareas_cortas\Tareas_cortas\obj\Debug\Tareas_cortas.pdb
+C:\Users\Nathaniel\Desktop\Csharp-proyects\Tareas_cortas\Tareas_cortas\obj\Debug\Tareas_cortas.Ayuda.resources
