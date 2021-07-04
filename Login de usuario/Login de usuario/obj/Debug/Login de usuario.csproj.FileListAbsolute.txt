@@ -1,0 +1,10 @@
+E:\Coding\Csharp-proyects\Login de usuario\Login de usuario\bin\Debug\Login de usuario.exe.config
+E:\Coding\Csharp-proyects\Login de usuario\Login de usuario\bin\Debug\Login de usuario.exe
+E:\Coding\Csharp-proyects\Login de usuario\Login de usuario\bin\Debug\Login de usuario.pdb
+E:\Coding\Csharp-proyects\Login de usuario\Login de usuario\obj\Debug\Login de usuario.csproj.AssemblyReference.cache
+E:\Coding\Csharp-proyects\Login de usuario\Login de usuario\obj\Debug\Login_de_usuario.Form1.resources
+E:\Coding\Csharp-proyects\Login de usuario\Login de usuario\obj\Debug\Login_de_usuario.Properties.Resources.resources
+E:\Coding\Csharp-proyects\Login de usuario\Login de usuario\obj\Debug\Login de usuario.csproj.GenerateResource.cache
+E:\Coding\Csharp-proyects\Login de usuario\Login de usuario\obj\Debug\Login de usuario.csproj.CoreCompileInputs.cache
+E:\Coding\Csharp-proyects\Login de usuario\Login de usuario\obj\Debug\Login de usuario.exe
+E:\Coding\Csharp-proyects\Login de usuario\Login de usuario\obj\Debug\Login de usuario.pdb
