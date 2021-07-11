@@ -10,3 +10,15 @@ E:\Coding\Csharp-proyects\Loggin de Usuarios\Dominio\obj\Debug\net5.0-windows\Do
 E:\Coding\Csharp-proyects\Loggin de Usuarios\Dominio\obj\Debug\net5.0-windows\Dominio.dll
 E:\Coding\Csharp-proyects\Loggin de Usuarios\Dominio\obj\Debug\net5.0-windows\ref\Dominio.dll
 E:\Coding\Csharp-proyects\Loggin de Usuarios\Dominio\obj\Debug\net5.0-windows\Dominio.pdb
+E:\Coding\Csharp-proyects\Loggin de Usuarios\Dominio\bin\Debug\net5.0-windows\Acceso.dll
+E:\Coding\Csharp-proyects\Loggin de Usuarios\Dominio\bin\Debug\net5.0-windows\MySql.Data.dll
+E:\Coding\Csharp-proyects\Loggin de Usuarios\Dominio\bin\Debug\net5.0-windows\Google.Protobuf.dll
+E:\Coding\Csharp-proyects\Loggin de Usuarios\Dominio\bin\Debug\net5.0-windows\Zstandard.Net.dll
+E:\Coding\Csharp-proyects\Loggin de Usuarios\Dominio\bin\Debug\net5.0-windows\K4os.Compression.LZ4.Streams.dll
+E:\Coding\Csharp-proyects\Loggin de Usuarios\Dominio\bin\Debug\net5.0-windows\BouncyCastle.Crypto.dll
+E:\Coding\Csharp-proyects\Loggin de Usuarios\Dominio\bin\Debug\net5.0-windows\Ubiety.Dns.Core.dll
+E:\Coding\Csharp-proyects\Loggin de Usuarios\Dominio\bin\Debug\net5.0-windows\K4os.Compression.LZ4.dll
+E:\Coding\Csharp-proyects\Loggin de Usuarios\Dominio\bin\Debug\net5.0-windows\K4os.Hash.xxHash.dll
+E:\Coding\Csharp-proyects\Loggin de Usuarios\Dominio\bin\Debug\net5.0-windows\Acceso.pdb
+E:\Coding\Csharp-proyects\Loggin de Usuarios\Dominio\bin\Debug\net5.0-windows\MySql.Data.xml
+E:\Coding\Csharp-proyects\Loggin de Usuarios\Dominio\obj\Debug\net5.0-windows\Dominio.csproj.CopyComplete
