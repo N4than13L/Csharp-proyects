@@ -1,33 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net5.0-windows7.0": {
-      "Acceso/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "compile": {
-          "bin/placeholder/Acceso.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Acceso.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.WindowsDesktop.App.WindowsForms"
-        ]
-      }
-    }
+    "net5.0-windows7.0": {}
   },
-  "libraries": {
-    "Acceso/1.0.0": {
-      "type": "project",
-      "path": "../Acceso/Acceso.csproj",
-      "msbuildProject": "../Acceso/Acceso.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net5.0-windows7.0": [
-      "Acceso >= 1.0.0"
-    ]
+    "net5.0-windows7.0": []
   },
   "packageFolders": {
     "C:\\Users\\Nathaniel\\.nuget\\packages\\": {}
@@ -35,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Coding\\Csharp-proyects\\Loggin de Usuarios\\Dominio\\Dominio.csproj",
-      "projectName": "Dominio",
-      "projectPath": "E:\\Coding\\Csharp-proyects\\Loggin de Usuarios\\Dominio\\Dominio.csproj",
+      "projectUniqueName": "E:\\Coding\\Csharp-proyects\\Loggin de Usuarios\\Acceso\\Acceso.csproj",
+      "projectName": "Acceso",
+      "projectPath": "E:\\Coding\\Csharp-proyects\\Loggin de Usuarios\\Acceso\\Acceso.csproj",
       "packagesPath": "C:\\Users\\Nathaniel\\.nuget\\packages\\",
-      "outputPath": "E:\\Coding\\Csharp-proyects\\Loggin de Usuarios\\Dominio\\obj\\",
+      "outputPath": "E:\\Coding\\Csharp-proyects\\Loggin de Usuarios\\Acceso\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Nathaniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -54,11 +32,7 @@
       "frameworks": {
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
-          "projectReferences": {
-            "E:\\Coding\\Csharp-proyects\\Loggin de Usuarios\\Acceso\\Acceso.csproj": {
-              "projectPath": "E:\\Coding\\Csharp-proyects\\Loggin de Usuarios\\Acceso\\Acceso.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

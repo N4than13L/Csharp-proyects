@@ -1,0 +1,12 @@
+E:\Coding\Csharp-proyects\Loggin de Usuarios\Dominio\bin\Debug\net5.0-windows\Dominio.deps.json
+E:\Coding\Csharp-proyects\Loggin de Usuarios\Dominio\bin\Debug\net5.0-windows\Dominio.dll
+E:\Coding\Csharp-proyects\Loggin de Usuarios\Dominio\bin\Debug\net5.0-windows\ref\Dominio.dll
+E:\Coding\Csharp-proyects\Loggin de Usuarios\Dominio\bin\Debug\net5.0-windows\Dominio.pdb
+E:\Coding\Csharp-proyects\Loggin de Usuarios\Dominio\obj\Debug\net5.0-windows\Dominio.csproj.AssemblyReference.cache
+E:\Coding\Csharp-proyects\Loggin de Usuarios\Dominio\obj\Debug\net5.0-windows\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+E:\Coding\Csharp-proyects\Loggin de Usuarios\Dominio\obj\Debug\net5.0-windows\Dominio.AssemblyInfoInputs.cache
+E:\Coding\Csharp-proyects\Loggin de Usuarios\Dominio\obj\Debug\net5.0-windows\Dominio.AssemblyInfo.cs
+E:\Coding\Csharp-proyects\Loggin de Usuarios\Dominio\obj\Debug\net5.0-windows\Dominio.csproj.CoreCompileInputs.cache
+E:\Coding\Csharp-proyects\Loggin de Usuarios\Dominio\obj\Debug\net5.0-windows\Dominio.dll
+E:\Coding\Csharp-proyects\Loggin de Usuarios\Dominio\obj\Debug\net5.0-windows\ref\Dominio.dll
+E:\Coding\Csharp-proyects\Loggin de Usuarios\Dominio\obj\Debug\net5.0-windows\Dominio.pdb

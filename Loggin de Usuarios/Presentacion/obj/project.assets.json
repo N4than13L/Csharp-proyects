@@ -1,11 +1,54 @@
 {
   "version": 3,
   "targets": {
-    "net5.0-windows7.0": {}
+    "net5.0-windows7.0": {
+      "Acceso/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Acceso.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Acceso.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "Dominio/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Acceso": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Dominio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Dominio.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Acceso/1.0.0": {
+      "type": "project",
+      "path": "../Acceso/Acceso.csproj",
+      "msbuildProject": "../Acceso/Acceso.csproj"
+    },
+    "Dominio/1.0.0": {
+      "type": "project",
+      "path": "../Dominio/Dominio.csproj",
+      "msbuildProject": "../Dominio/Dominio.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0-windows7.0": []
+    "net5.0-windows7.0": [
+      "Dominio >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Nathaniel\\.nuget\\packages\\": {}
@@ -32,7 +75,11 @@
       "frameworks": {
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\Coding\\Csharp-proyects\\Loggin de Usuarios\\Dominio\\Dominio.csproj": {
+              "projectPath": "E:\\Coding\\Csharp-proyects\\Loggin de Usuarios\\Dominio\\Dominio.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
